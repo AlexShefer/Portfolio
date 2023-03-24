@@ -129,7 +129,7 @@ function Navbar() {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-emerald-500">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="/"
+                            href="mailto:avshef451987@gmail.com"
                         >
                             Email <HiOutlineMail size={30} />
                         </a>
@@ -137,7 +137,8 @@ function Navbar() {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="https://www.linkedin.com/feed/"
+                            href="../assets/resume/aleksandr_shefer_resume.pdf"
+                            download
                         >
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>

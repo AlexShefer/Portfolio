@@ -16,10 +16,9 @@ function Home() {
                     I am software engineer.
                 </h2>
                 <p className="text-teal-200 py-4 max-w-2xl">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Rem ad eius ipsa exercitationem rerum quam, accusantium
-                    excepturi, repudiandae ut laborum alias fugit molestiae quo,
-                    quisquam mollitia temporibus aperiam atque sint.
+                    I am focused on developing responsive front-end web
+                    applications with back-end technologies integration that
+                    exceed users expectations.
                 </p>
                 <div>
                     <Link to="work" smooth={true} duration={500}>
