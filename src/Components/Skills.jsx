@@ -1,4 +1,3 @@
-import AWS from "../assets/aws.png";
 import CSS from "../assets/css.png";
 import HTML from "../assets/html.png";
 import JS from "../assets/javascript.png";
