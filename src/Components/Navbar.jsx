@@ -10,7 +10,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div className="fixed w-full h-20 flex justify-between items-center px-4  bg-slate-900 text-gray-300">
             <div>
                 <img className="w-[80px]" src={Logo} alt="Logo" />
             </div>
@@ -43,7 +43,7 @@ function Navbar() {
                 </li>
             </ul>
             {/* Menu open bar */}
-            <div onClick={handleClick} className="md:hidden z-10">
+            <div onClick={handleClick} className="md:hidden z-20">
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
             {/* Mobile Menu */}
@@ -51,7 +51,7 @@ function Navbar() {
                 className={
                     !nav
                         ? "hidden"
-                        : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+                        : "absolute top-0 left-0 w-full h-screen  bg-slate-900 flex flex-col justify-center items-center z-10"
                 }
             >
                 <ul>
@@ -137,8 +137,8 @@ function Navbar() {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="../assets/resume/aleksandr_shefer_resume.pdf"
-                            download
+                            href="./assets/resume.pdf"
+                            download={"resume.pdf"}
                         >
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>

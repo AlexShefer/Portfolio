@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function Home() {
     return (
-        <div name="home" className=" w-full md:h-screen bg-[#0a192f]">
+        <div name="home" className=" w-full md:h-screen  bg-slate-900]">
             Home
             {/* container */}
             <div className="max-w-5xl mx-auto px-8 flex flex-col justify-center h-full mt-20">

@@ -5,13 +5,14 @@ import JS from "../assets/javascript.png";
 import Mongo from "../assets/mongo.png";
 import Node from "../assets/node.png";
 import React from "../assets/react.png";
+import Redux from "../assets/redux.png";
 import Tailwind from "../assets/tailwind.png";
 
 function Skills() {
     return (
         <div
             name="skills"
-            className="w-full md:h-screen bg-[#0a192f] text-gray-300"
+            className="w-full md:h-screen  bg-slate-900 text-gray-300"
         >
             <div className="max-w-5xl mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div>
@@ -78,10 +79,10 @@ function Skills() {
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration:500">
                         <img
                             className="w-20 mx-auto"
-                            src={AWS}
-                            alt="AWS icon"
+                            src={Redux}
+                            alt="redux icon"
                         />
-                        <p className="my-4">AWS</p>
+                        <p className="my-4">Redux</p>
                     </div>
                 </div>
             </div>
