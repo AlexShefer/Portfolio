@@ -10,7 +10,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className="fixed w-full h-20 flex justify-between items-center p-4  bg-slate-900 text-gray-300">
+        <div className="fixed w-screen h-20 flex justify-between items-center p-4  bg-slate-900 text-gray-300">
             <div>
                 <img className="w-[80px]" src={Logo} alt="Logo" />
             </div>
@@ -22,22 +22,32 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="about" smooth={true} duration={500}>
+                    <Link to="about" smooth={true} duration={500} offset={-100}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link to="skills" smooth={true} duration={500}>
+                    <Link
+                        to="skills"
+                        smooth={true}
+                        duration={500}
+                        offset={-100}
+                    >
                         Skills
                     </Link>
                 </li>
                 <li>
-                    <Link to="work" smooth={true} duration={500}>
+                    <Link to="work" smooth={true} duration={500} offset={-100}>
                         Works
                     </Link>
                 </li>
                 <li>
-                    <Link to="contact" smooth={true} duration={500}>
+                    <Link
+                        to="contact"
+                        smooth={true}
+                        duration={500}
+                        offset={-100}
+                    >
                         Contact
                     </Link>
                 </li>
@@ -61,6 +71,7 @@ function Navbar() {
                             to="home"
                             smooth={true}
                             duration={500}
+                            offset={-100}
                         >
                             Home
                         </Link>
@@ -71,6 +82,7 @@ function Navbar() {
                             to="about"
                             smooth={true}
                             duration={500}
+                            offset={-100}
                         >
                             About
                         </Link>
@@ -81,6 +93,7 @@ function Navbar() {
                             to="skills"
                             smooth={true}
                             duration={500}
+                            offset={-100}
                         >
                             Skills
                         </Link>
@@ -91,6 +104,7 @@ function Navbar() {
                             to="work"
                             smooth={true}
                             duration={500}
+                            offset={-100}
                         >
                             Work
                         </Link>
@@ -101,6 +115,7 @@ function Navbar() {
                             to="contact"
                             smooth={true}
                             duration={500}
+                            offset={-100}
                         >
                             Contact
                         </Link>

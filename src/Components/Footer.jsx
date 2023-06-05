@@ -34,8 +34,10 @@ function SocialIco({ link, message, position, children, download }) {
 function Footer() {
     return (
         <div className="bg-zinc-900  p-4">
-            <div className="bg-zinc-900 flex justify-between">
-                <div className="text-2xl  text-gray-300">Aleksandr Shefer</div>
+            <div className="bg-zinc-900 flex justify-center md:justify-between">
+                <div className="hidden md:block text-2xl  text-gray-300">
+                    Aleksandr Shefer
+                </div>
                 <div className="flex align-middle ">
                     <SocialIco
                         ico={FaLinkedinIn}

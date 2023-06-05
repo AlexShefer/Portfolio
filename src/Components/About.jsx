@@ -2,9 +2,10 @@ function About() {
     return (
         <div
             name="about"
-            className="w-full min-h-screen bg-slate-900 text-gray-300"
+            className="w-full min-h-screen bg-green-800  text-gray-300"
         >
-            <div className="flex flex-col justify-center items-center w-full h-full">
+            {/* bg-slate-900 */}
+            <div className="flex flex-col justify-center items-center w-full min-h-full p-4">
                 <div className="max-w-5xl w-full grid grid-cols-2 gap-8">
                     <div className="sm:text-right pb-8 pl-4">
                         <p className="text-4xl font-bold inline border-b-4 border-pink-600">
