@@ -13,6 +13,7 @@
         @apply cursor-pointer;
     }
 }
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;

@@ -10,7 +10,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className="fixed w-full h-20 flex justify-between items-center px-4  bg-slate-900 text-gray-300">
+        <div className="fixed w-full h-20 flex justify-between items-center p-4  bg-slate-900 text-gray-300">
             <div>
                 <img className="w-[80px]" src={Logo} alt="Logo" />
             </div>
@@ -51,7 +51,7 @@ function Navbar() {
                 className={
                     !nav
                         ? "hidden"
-                        : "absolute top-0 left-0 w-full h-screen  bg-slate-900 flex flex-col justify-center items-center z-10"
+                        : "fixed top-0 left-0 w-full h-screen bg-slate-900 flex flex-col justify-center items-center z-10"
                 }
             >
                 <ul>

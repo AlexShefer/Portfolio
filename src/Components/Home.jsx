@@ -4,15 +4,17 @@ import { Link } from "react-scroll";
 
 function Home() {
     return (
-        <div name="home" className=" w-full md:h-screen  bg-slate-900]">
-            Home
+        <div
+            name="home"
+            className=" w-full min-h-screen  bg-slate-900] flex flex-col justify-center"
+        >
             {/* container */}
-            <div className="max-w-5xl mx-auto px-8 flex flex-col justify-center h-full mt-20">
+            <div className="max-w-5xl mx-auto p-4 flex flex-col justify-center min-h-full mt-20">
                 <p className="text-pink-600">Hi my name is</p>
-                <h1 className="text-4-xl sm:text-7xl font-bold text-teal-100">
+                <h1 className="text-4xl sm:text-7xl font-bold text-teal-100">
                     Aleksandr Shefer
                 </h1>
-                <h2 className="text-4-xl sm:text-7xl font-bold text-teal-200">
+                <h2 className="text-4xl sm:text-7xl font-bold text-teal-200">
                     I am software engineer.
                 </h2>
                 <p className="text-teal-200 py-4 max-w-2xl">

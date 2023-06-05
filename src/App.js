@@ -8,7 +8,7 @@ import Footer from "./Components/Footer";
 
 function App() {
     return (
-        <div className=" bg-slate-900">
+        <div className="main w-screen bg-slate-900">
             <Navbar />
             <Home />
             <About />
